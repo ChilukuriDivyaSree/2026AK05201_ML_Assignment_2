@@ -34,7 +34,7 @@ The 30 features are three statistics — **mean**, **standard error** and **wors
 Live Streamlit app: **<https://2026ak05201-ml-assignment-2.streamlit.app/>**
 
 ```
-project-folder/
+2026AK05201_ML_Assignment_2/
 │-- app.py                                 Streamlit app (upload CSV, pick model, view metrics / confusion matrix)
 │-- requirements.txt
 │-- README.md
@@ -45,7 +45,10 @@ project-folder/
     │-- knn.joblib
     │-- naive_bayes.joblib
     │-- support_vector_machine.joblib      saved trained models (scaler included in the pipelines)
-    │-- train_models.py                    source code: loads data, trains the 5 models, evaluates, saves everything
+│-- src/
+    |--train_models.py                    source code: loads data, trains the 5 models, evaluates, saves everything
+    |--notebooks/
+        |--model_training.ipynb
 ```
 
 **Run locally** (from the project root)
