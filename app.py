@@ -49,7 +49,7 @@ MODEL_NAMES = list(MODEL_FILES)
 METRIC_NAMES = ["Accuracy", "AUC", "Precision", "Recall", "F1", "MCC"]
 
 # must be the first Streamlit call
-st.set_page_config(page_title="Classifier Lab", page_icon="🧪", layout="wide")
+st.set_page_config(page_title="Breast Cancer Wisconsin (Diagnostic) - Classifier Lab", page_icon="🧪", layout="wide")
 
 
 @st.cache_resource
@@ -101,7 +101,7 @@ def prepare_target(series):
 # ----------------------------------------------------------------------------
 # Header
 # ----------------------------------------------------------------------------
-st.title("🧪 Classifier Lab")
+st.title("🧪 Breast Cancer Wisconsin (Diagnostic) - Classifier Lab")
 st.markdown(
     f"Compare five pre-trained classifiers on **{DATASET_NAME}** — "
     f"{DATASET_BLURB}, predicting **{CLASS_NAMES[0]}** vs **{CLASS_NAMES[1]}**."
