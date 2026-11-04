@@ -31,7 +31,7 @@ The 30 features are three statistics — **mean**, **standard error** and **wors
 
 **<https://github.com/ChilukuriDivyaSree/2026AK05201_ML_Assignment_2>**
 
-Live Streamlit app: **<YOUR_STREAMLIT_APP_LINK>**
+Live Streamlit app: **<https://2026ak05201-ml-assignment-2.streamlit.app/>**
 
 ```
 project-folder/
@@ -99,6 +99,7 @@ Confusion-matrix counts on the same test set (positive = Malignant):
 | Support Vector Machine | Best on this test set: accuracy 0.9825, AUC 1.0000, recall 1.0000 (no malignant case missed), F1 0.9767 and MCC 0.9633, with only 2 errors (both false positives). The RBF kernel fits the mild non-linearity in the data after scaling. |
 | **Overall, winner for this dataset?** | **Support Vector Machine** — highest on 5 of 6 metrics (all except precision) and the only model with zero missed malignant cases, which is the more costly error in screening. Caveat: the test set has only 114 rows, and SVM beats Logistic Regression, Decision Tree and KNN by a single row (2 errors vs 3), so SVM, Logistic Regression and KNN should be regarded as closely matched. Naive Bayes is clearly the weakest. |
 
+**Live Streamlit app:** **<https://2026ak05201-ml-assignment-2.streamlit.app/>**
 ## Streamlit app features
 
 1. **Dataset upload** — upload a CSV containing all 30 feature columns and the `diagnosis` column (class names `Benign` / `Malignant` are also accepted). A bundled `test_data.csv` option and a download button are provided for quick demos.
