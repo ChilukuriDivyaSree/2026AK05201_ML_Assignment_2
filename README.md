@@ -29,7 +29,7 @@ The 30 features are three statistics — **mean**, **standard error** and **wors
 
 ## c. GitHub repository link
 
-**<YOUR_GITHUB_REPO_LINK>**
+**<https://github.com/ChilukuriDivyaSree/2026AK05201_ML_Assignment_2>**
 
 Live Streamlit app: **<YOUR_STREAMLIT_APP_LINK>**
 
